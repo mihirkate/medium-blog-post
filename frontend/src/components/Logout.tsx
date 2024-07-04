@@ -1,7 +1,8 @@
 // Example with React
 import React from 'react';
+
 import { useNavigate } from 'react-router-dom';
-const LogoutButton = () => {
+export const LogoutButton = () => {
     const navigate = useNavigate();
 
     const handleLogout = () => {
@@ -20,4 +21,4 @@ const LogoutButton = () => {
     );
 };
 
-export default LogoutButton;
+
